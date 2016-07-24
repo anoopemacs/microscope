@@ -22,10 +22,15 @@ body {
 
 .navbar {
     margin-bottom: 10px;
+    background-color: #f8f8f8;/* added by anoop */
 }
 /* line 32, ../sass/style.scss */
 .navbar .navbar-inner {
     border-radius: 0px 0px 3px 3px;
+}
+
+.navbar-brand {
+    color: #787777;/* added by anoop: */
 }
 
 #spinner {
