@@ -1,11 +1,6 @@
 <template name="layout">
     <div class="container">
-	<header class="navbar">
-	    <div class="navbar-inner">
-		<a class="navbar-brand" href="{{pathFor 'postsList'}}">Microscopebrand007</a>
-		<!-- this class bootstrap is not working, doubt -->
-	    </div>
-	</header>
+	{{> header}}
 	<div id="main" class="row-fluid">
 	    {{> yield}}
 	</div>
